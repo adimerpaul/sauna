@@ -55,8 +55,8 @@ mysql_query("INSERT INTO detalle VALUES('null','SAUNAS MAYORES','$smac','8','$sm
 mysql_query("INSERT INTO detalle VALUES('null','SAUNAS MENORES','$smec','4','$sme','$id')");
 mysql_query("INSERT INTO detalle VALUES('null','SAUNAS INDIVIDUALES MAYORES','$simac','8','$sima','$id')");
 mysql_query("INSERT INTO detalle VALUES('null','SAUNAS INDIVIDUALES MENORES','$simec','4','$sime','$id')");
-mysql_query("INSERT INTO detalle VALUES('null','FOSAS ESPECIALES MAYORES','$femac','8','$fema','$id')");
-mysql_query("INSERT INTO detalle VALUES('null','FOSAS ESPECIALES MENORES','$femec','4','$feme','$id')");
+mysql_query("INSERT INTO detalle VALUES('null','FOSAS ESPECIALES MAYORES','$femac','5','$fema','$id')");
+mysql_query("INSERT INTO detalle VALUES('null','FOSAS ESPECIALES MENORES','$femec','2.5','$feme','$id')");
 mysql_query("INSERT INTO detalle VALUES('null','DUCHAS','$duc','3','$du','$id')");
 mysql_query("INSERT INTO detalle VALUES('null','DELEGACIONES','$dec','2','$de','$id')");
 mysql_query("INSERT INTO detalle VALUES('null','ADULTO MAYOR','$adc','2','$ad','$id')");
