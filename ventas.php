@@ -126,31 +126,31 @@ include 'inc/pie.php';
                       );
                   }
                 </script>
-                <td>INDIVIDUALES MAYORES/8</td>
+                <td>INDIVIDUALES MAYORES/5</td>
                 <td><input type="number" name="imac" maxlength="4" value="0" id="imac"></td>
                 <td><input class="total" type="text" name="ima" maxlength="4" value="0" id="ima"></td>
                 <script type="text/javascript">
                   $('#imac').keyup(function(){
-                      $('#ima').prop('value',$('#imac').prop('value')*8);
+                      $('#ima').prop('value',$('#imac').prop('value')*5);
                       sumar();
                     });
                   $('#imac').change(function(){
-                      $('#ima').prop('value',$('#imac').prop('value')*8);
+                      $('#ima').prop('value',$('#imac').prop('value')*5);
                       sumar();
                   });
                 </script>
               </tr>
               <tr>
-                <td>INDIVIDUALES MENORES/4</td>
+                <td>INDIVIDUALES MENORES/2.5</td>
                 <td><input type="number" name="imec" maxlength="4" value="0" id="imec"></td>
                 <td><input class="total" type="text" name="ime" maxlength="4" value="0" id="ime"></td>
                 <script type="text/javascript">
                   $('#imec').keyup(function(){
-                      $('#ime').prop('value',$('#imec').prop('value')*4);
+                      $('#ime').prop('value',$('#imec').prop('value')*2.5);
                       sumar();
                   });
                   $('#imec').change(function(){
-                      $('#ime').prop('value',$('#imec').prop('value')*4);
+                      $('#ime').prop('value',$('#imec').prop('value')*2.5);
                       sumar();
                   });
                 </script>
@@ -216,31 +216,31 @@ include 'inc/pie.php';
                 </script>
               </tr>
               <tr>
-                <td>FOSAS ESPECIALES MAYORES/5</td>
+                <td>FOSAS ESPECIALES MAYORES/8</td>
                 <td><input type="number" name="femac" maxlength="4" value="0" id="femac"></td>
                 <td><input class="total" type="text" name="fema" maxlength="4" value="0" id="fema"></td>
                 <script type="text/javascript">
                   $('#femac').keyup(function(){
-                      $('#fema').prop('value',$('#femac').prop('value')*5);
+                      $('#fema').prop('value',$('#femac').prop('value')*8);
                       sumar();
                     });
                   $('#femac').change(function(){
-                      $('#fema').prop('value',$('#femac').prop('value')*5);
+                      $('#fema').prop('value',$('#femac').prop('value')*8);
                       sumar();
                     });
                 </script>
               </tr>
               <tr>
-                <td>FOSAS ESPECIALES MENORES/2.5</td>
+                <td>FOSAS ESPECIALES MENORES/4</td>
                 <td><input type="number" name="femec" maxlength="4" value="0" id="femec"></td>
                 <td><input class="total" type="text" name="feme" maxlength="4" value="0" id="feme"></td>
                 <script type="text/javascript">
                   $('#femec').keyup(function(){
-                      $('#feme').prop('value',$('#femec').prop('value')*2.5);
+                      $('#feme').prop('value',$('#femec').prop('value')*4);
                       sumar();
                     });
                   $('#femec').change(function(){
-                      $('#feme').prop('value',$('#femec').prop('value')*2.5);
+                      $('#feme').prop('value',$('#femec').prop('value')*4);
                       sumar();
                     });
                 </script>
@@ -384,31 +384,31 @@ include 'inc/pie.php';
                       );
                   }
                 </script>
-                <td>INDIVIDUALES MAYORES/8</td>
+                <td>INDIVIDUALES MAYORES/5</td>
                 <td><input type="number" name="imac" maxlength="4" value="0" id="imac2"></td>
                 <td><input class="total" type="text" name="ima" maxlength="4" value="0" id="ima2"></td>
                 <script type="text/javascript">
                   $('#imac2').keyup(function(){
-                      $('#ima2').prop('value',$('#imac2').prop('value')*8);
+                      $('#ima2').prop('value',$('#imac2').prop('value')*5);
                       sumar2();
                     });
                   $('#imac2').change(function(){
-                      $('#ima2').prop('value',$('#imac2').prop('value')*8);
+                      $('#ima2').prop('value',$('#imac2').prop('value')*5);
                       sumar2();
                   });
                 </script>
               </tr>
               <tr>
-                <td>INDIVIDUALES MENORES/4</td>
+                <td>INDIVIDUALES MENORES/2.5</td>
                 <td><input type="number" name="imec" maxlength="4" value="0" id="imec2"></td>
                 <td><input class="total" type="text" name="ime" maxlength="4" value="0" id="ime2"></td>
                 <script type="text/javascript">
                   $('#imec2').keyup(function(){
-                      $('#ime2').prop('value',$('#imec2').prop('value')*4);
+                      $('#ime2').prop('value',$('#imec2').prop('value')*2.5);
                       sumar2();
                   });
                   $('#imec2').change(function(){
-                      $('#ime2').prop('value',$('#imec2').prop('value')*4);
+                      $('#ime2').prop('value',$('#imec2').prop('value')*2.5);
                       sumar2();
                   });
                 </script>
@@ -474,31 +474,31 @@ include 'inc/pie.php';
                 </script>
               </tr>
               <tr>
-                <td>FOSAS ESPECIALES MAYORES/5</td>
+                <td>FOSAS ESPECIALES MAYORES/8</td>
                 <td><input type="number" name="femac" maxlength="4" value="0" id="femac2"></td>
                 <td><input class="total" type="text" name="fema" maxlength="4" value="0" id="fema2"></td>
                 <script type="text/javascript">
                   $('#femac2').keyup(function(){
-                      $('#fema2').prop('value',$('#femac2').prop('value')*5);
+                      $('#fema2').prop('value',$('#femac2').prop('value')*8);
                       sumar2();
                     });
                   $('#femac2').change(function(){
-                      $('#fema2').prop('value',$('#femac2').prop('value')*5);
+                      $('#fema2').prop('value',$('#femac2').prop('value')*8);
                       sumar2();
                     });
                 </script>
               </tr>
               <tr>
-                <td>FOSAS ESPECIALES MENORES/2.5</td>
+                <td>FOSAS ESPECIALES MENORES/4</td>
                 <td><input type="number" name="femec" maxlength="4" value="0" id="femec2"></td>
                 <td><input class="total" type="text" name="feme" maxlength="4" value="0" id="feme2"></td>
                 <script type="text/javascript">
                   $('#femec2').keyup(function(){
-                      $('#feme2').prop('value',$('#femec2').prop('value')*2.5);
+                      $('#feme2').prop('value',$('#femec2').prop('value')*4);
                       sumar2();
                     });
                   $('#femec2').change(function(){
-                      $('#feme2').prop('value',$('#femec2').prop('value')*2.5);
+                      $('#feme2').prop('value',$('#femec2').prop('value')*4);
                       sumar2();
                     });
                 </script>
