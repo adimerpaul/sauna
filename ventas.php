@@ -291,31 +291,31 @@ include 'inc/pie.php';
                 </script>
               </tr>
               <tr>
-                <td>PISINA MAYORES/3</td>
+                <td>PISINA MAYORES/5</td>
                 <td><input type="number" name="pmac" maxlength="4" value="0" id="pmac"></td>
                 <td><input class="total" type="text" name="pma" maxlength="4" value="0" id="pma"></td>
                 <script type="text/javascript">
                   $('#pmac').keyup(function(){
-                      $('#pma').prop('value',$('#pmac').prop('value')*3);
+                      $('#pma').prop('value',$('#pmac').prop('value')*5);
                       sumar();
                     });
                   $('#pmac').change(function(){
-                      $('#pma').prop('value',$('#pmac').prop('value')*3);
+                      $('#pma').prop('value',$('#pmac').prop('value')*5);
                       sumar();
                     });
                 </script>
               </tr>
               <tr>
-                <td>PISINA MENOR/1.5</td>
+                <td>PISINA MENOR/2.5</td>
                 <td><input type="number" name="pmec" maxlength="4" value="0" id="pmec"></td>
                 <td><input class="total" type="text" name="pme" maxlength="4" value="0" id="pme"></td>
                 <script type="text/javascript">
                   $('#pmec').keyup(function(){
-                      $('#pme').prop('value',$('#pmec').prop('value')*1.5);
+                      $('#pme').prop('value',$('#pmec').prop('value')*2.5);
                       sumar();
                     });
                   $('#pmec').change(function(){
-                      $('#pme').prop('value',$('#pmec').prop('value')*1.5);
+                      $('#pme').prop('value',$('#pmec').prop('value')*2.5);
                       sumar();
                     });
                 </script>
@@ -549,31 +549,31 @@ include 'inc/pie.php';
                 </script>
               </tr>
               <tr>
-                <td>PISINA MAYORES/3</td>
+                <td>PISINA MAYORES/5</td>
                 <td><input type="number" name="pmac2" maxlength="4" value="0" id="pmac2"></td>
                 <td><input class="total" type="text" name="pma2" maxlength="4" value="0" id="pma2"></td>
                 <script type="text/javascript">
                   $('#pmac2').keyup(function(){
-                      $('#pma2').prop('value',$('#pmac2').prop('value')*3);
+                      $('#pma2').prop('value',$('#pmac2').prop('value')*5);
                       sumar2();
                     });
                   $('#pmac2').change(function(){
-                      $('#pma2').prop('value',$('#pmac2').prop('value')*3);
+                      $('#pma2').prop('value',$('#pmac2').prop('value')*5);
                       sumar2();
                     });
                 </script>
               </tr>
               <tr>
-                <td>PISINA MENOR/1.5</td>
+                <td>PISINA MENOR/2.5</td>
                 <td><input type="number" name="pmec2" maxlength="4" value="0" id="pmec2"></td>
                 <td><input class="total" type="text" name="pme2" maxlength="4" value="0" id="pme2"></td>
                 <script type="text/javascript">
                   $('#pmec2').keyup(function(){
-                      $('#pme2').prop('value',$('#pmec2').prop('value')*1.5);
+                      $('#pme2').prop('value',$('#pmec2').prop('value')*2.5);
                       sumar2();
                     });
                   $('#pmec2').change(function(){
-                      $('#pme2').prop('value',$('#pmec2').prop('value')*1.5);
+                      $('#pme2').prop('value',$('#pmec2').prop('value')*2.5);
                       sumar2();
                     });
                 </script>

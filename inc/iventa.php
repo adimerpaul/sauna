@@ -60,7 +60,7 @@ mysql_query("INSERT INTO detalle VALUES('null','FOSAS ESPECIALES MENORES','$feme
 mysql_query("INSERT INTO detalle VALUES('null','DUCHAS','$duc','3','$du','$id')");
 mysql_query("INSERT INTO detalle VALUES('null','DELEGACIONES','$dec','2','$de','$id')");
 mysql_query("INSERT INTO detalle VALUES('null','ADULTO MAYOR','$adc','2','$ad','$id')");
-mysql_query("INSERT INTO detalle VALUES('null','PISINA MAYOR','$pmac','3','$pma','$id')");
-mysql_query("INSERT INTO detalle VALUES('null','PISINA MENOR','$pmec','1.5','$pme','$id')");
+mysql_query("INSERT INTO detalle VALUES('null','PISINA MAYOR','$pmac','5','$pma','$id')");
+mysql_query("INSERT INTO detalle VALUES('null','PISINA MENOR','$pmec','2.5','$pme','$id')");
 header('Location: ../boleta.php?nombre='.$nombre.'&idclientesauna='.$id);
 ?>
