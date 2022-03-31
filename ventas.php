@@ -54,13 +54,13 @@ date_default_timezone_set('America/La_Paz');
                       <td>".substr($f[3],0,8)."</td>
                       <td>$f[4]</td>
                       <td>
-                        <a href='boleta.php?nombre=$f[1]&idclientesauna=$f[0]' type='button' class='btn btn-info btn-xs'>
+                        <!--a href='boleta.php?nombre=$f[1]&idclientesauna=$f[0]' type='button' class='btn btn-info btn-xs'>
                           <span class='glyphicon glyphicon-print'></span>Imprimir
-                        </a>";
+                        </a-->";
               if($f[5]=="NO MODIFICADO")
-              echo "  <button type='button' class='btn btn-warning btn-xs' data-toggle='modal'  data-target='#modificar' data-idclientesauna='$f[0]'>
+              echo "  <!--button type='button' class='btn btn-warning btn-xs' data-toggle='modal'  data-target='#modificar' data-idclientesauna='$f[0]'>
                           <span class='glyphicon glyphicon-pencil'></span>Modificar
-                        </button>";
+                        </button -->";
               echo   "</td>
                   </tr>";
 
